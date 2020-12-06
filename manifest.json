@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "tabswitch",
+  "version": "1.0",
+  "description": "my custom remap of ctrl tab",
+  "permissions": [
+      "tabs",
+      "activeTab"
+  ],
+  "commands": {
+    "previous": {
+      "description": "go to the previous tab",
+      "suggested_key": {
+        "default": "Alt+Shift+Space"
+      }
+    },
+    "next": {
+      "description": "go to the next tab",
+      "suggested_key": {
+        "default": "Alt+Space"
+      }
+    }
+  },
+  "background": {
+    "scripts": [
+      "foo.js"
+    ]
+  }
+}
+
+// vim: set ts=2 sts=2 sw=2 et:
