@@ -1,4 +1,4 @@
-# firefox-tabswitch
+# tabswitch
 
 # general
 
